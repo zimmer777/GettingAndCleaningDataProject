@@ -8,7 +8,7 @@ date: "Thursday, September 18, 2014"
 output: html_document
 
 
-This document is the code book for the class project for the Coursera Data Science -- Getting and Cleaning Data Class.  It describes the data set created in the execution of this project and documents the content and all the steps required to create it.  
+This document is the ReadMe for the class project for the Coursera Data Science -- Getting and Cleaning Data Class.  It describes the execution of this project and documents the content and all the steps required to create it.  
 
 The input data set comes from a UCI archive of physical activity data here:
 
