@@ -120,7 +120,7 @@ run_analysis<-function()
   #write the dataset to the text file using write.table with row.name=FALSE in csv format
   #outputs file "DataScienceClass_GettingAndCleaning_ProjectData.txt" to working dir
   
-  write.table(mean_dataset,file="DataScienceClass_GettingAndCleaning_ProjectData.txt",row.name=FALSE,sep=",")
+  write.table(mean_dataset,file="DataScienceClass_GettingAndCleaning_ProjectData.txt",row.name=FALSE,sep="\t")
   
   
   
