@@ -40,7 +40,7 @@ LAYING
 
 #Quantities
 
-The physical quantites reported are the mean values from each of the test and  training data sets merged together.  THe original 10299 measurements were summarized across the combinations of subject and activity.  These values are normalized
+The physical quantites reported are the mean values from each of the test and  training data sets merged together.  THe original 10299 measurements were summarized across the combinations of subject and activity.  These values are normalized to fall in the range [-1 1] and so have no units.  From a physicist's viewpoint, "WAI??!!".
 
 The quantity names are preserved from the original data set as the are sufficiently descriptive without being rediculously long.  The general format has the following noteworthy patterns:
 
@@ -57,54 +57,74 @@ Lastly, for the values where vector components are reported, the "X", "Y" or "Z"
 
 
 ##"tBodyAcc.mean...X","tBodyAcc.mean...Y","tBodyAcc.mean...Z"
-Mean values that I compouted of the mean values reported from the original time series data
+Mean values that I computed of the mean values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyAcc.std...X","tBodyAcc.std...Y","tBodyAcc.std...Z"
+##"tBodyAcc.std...X","tBodyAcc.std...Y","tBodyAcc.std...Z"
+Mean values that I computed of the standard deviation values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tGravityAcc.mean...X","tGravityAcc.mean...Y","tGravityAcc.mean...Z"
+##"tGravityAcc.mean...X","tGravityAcc.mean...Y","tGravityAcc.mean...Z"
+Mean values that I computed of the mean values reported from the original time series data from the accelerometer low-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tGravityAcc.std...X","tGravityAcc.std...Y","tGravityAcc.std...Z"
+##"tGravityAcc.std...X","tGravityAcc.std...Y","tGravityAcc.std...Z"
+Mean values that I computed of the standard deviation values reported from the original time series data from the accelerometer low-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyAccJerk.mean...X","tBodyAccJerk.mean...Y","tBodyAccJerk.mean...Z"
+##"tBodyAccJerk.mean...X","tBodyAccJerk.mean...Y","tBodyAccJerk.mean...Z"
+Mean values that I computed of first differences of the mean values of first differences reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyAccJerk.std...X","tBodyAccJerk.std...Y","tBodyAccJerk.std...Z"
+##"tBodyAccJerk.std...X","tBodyAccJerk.std...Y","tBodyAccJerk.std...Z"
+Mean values that I computed of the standard deviation values of first differences reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyGyro.mean...X","tBodyGyro.mean...Y","tBodyGyro.mean...Z"
+##"tBodyGyro.mean...X","tBodyGyro.mean...Y","tBodyGyro.mean...Z"
+Mean values that I computed of the mean values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyGyro.std...X","tBodyGyro.std...Y","tBodyGyro.std...Z"
+##"tBodyGyro.std...X","tBodyGyro.std...Y","tBodyGyro.std...Z"
+Mean values that I computed of the standard deviation values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyGyroJerk.mean...X","tBodyGyroJerk.mean...Y","tBodyGyroJerk.mean...Z"
+##"tBodyGyroJerk.mean...X","tBodyGyroJerk.mean...Y","tBodyGyroJerk.mean...Z"
+Mean values that I computed of the mean values of the first differences reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyGyroJerk.std...X","tBodyGyroJerk.std...Y","tBodyGyroJerk.std...Z"
+##"tBodyGyroJerk.std...X","tBodyGyroJerk.std...Y","tBodyGyroJerk.std...Z"
+Mean values that I computed of the standard deviation values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
-"tBodyAccMag.mean..","tBodyAccMag.std.."
+##"tBodyAccMag.mean..","tBodyAccMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"tGravityAccMag.mean..", "tGravityAccMag.std.."
+##"tGravityAccMag.mean..", "tGravityAccMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude values reported from the original time series data from the accelerometer low-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"tBodyAccJerkMag.mean..","tBodyAccJerkMag.std.."
+##"tBodyAccJerkMag.mean..","tBodyAccJerkMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude of the first differences of values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"tBodyGyroMag.mean..","tBodyGyroMag.std.."
+##"tBodyGyroMag.mean..","tBodyGyroMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude of the first differences of values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"tBodyGyroJerkMag.mean..","tBodyGyroJerkMag.std.."
+##"tBodyGyroJerkMag.mean..","tBodyGyroJerkMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude of the first differences of values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].  (If anybody reviewing this for class read this far, thanks.)
 
-"fBodyAcc.mean...X","fBodyAcc.mean...Y","fBodyAcc.mean...Z"
+##"fBodyAcc.mean...X","fBodyAcc.mean...Y","fBodyAcc.mean...Z"
+Mean values that I computed of the mean frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1]. (Seriously, you are awesome.)
 
-"fBodyAcc.std...X","fBodyAcc.std...Y","fBodyAcc.std...Z"
+##"fBodyAcc.std...X","fBodyAcc.std...Y","fBodyAcc.std...Z"
+Mean values that I computed of the std frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"fBodyAccJerk.mean...X","fBodyAccJerk.mean...Y","fBodyAccJerk.mean...Z"
+##"fBodyAccJerk.mean...X","fBodyAccJerk.mean...Y","fBodyAccJerk.mean...Z"
+Mean values that I computed of the mean first difference frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"fBodyAccJerk.std...X","fBodyAccJerk.std...Y","fBodyAccJerk.std...Z"
+##"fBodyAccJerk.std...X","fBodyAccJerk.std...Y","fBodyAccJerk.std...Z"
+Mean values that I computed of the std of first difference frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
-"fBodyGyro.mean...X","fBodyGyro.mean...Y","fBodyGyro.mean...Z"
+##"fBodyGyro.mean...X","fBodyGyro.mean...Y","fBodyGyro.mean...Z"
 
-"fBodyGyro.std...X","fBodyGyro.std...Y","fBodyGyro.std...Z"
+##"fBodyGyro.std...X","fBodyGyro.std...Y","fBodyGyro.std...Z"
 
-"fBodyAccMag.mean..","fBodyAccMag.std.."
+##"fBodyAccMag.mean..","fBodyAccMag.std.."
 
-"fBodyBodyAccJerkMag.mean..","fBodyBodyAccJerkMag.std.."
+##"fBodyBodyAccJerkMag.mean..","fBodyBodyAccJerkMag.std.."
 
-"fBodyBodyGyroMag.mean..","fBodyBodyGyroMag.std.."
+##"fBodyBodyGyroMag.mean..","fBodyBodyGyroMag.std.."
 
-"fBodyBodyGyroJerkMag.mean..","fBodyBodyGyroJerkMag.std.."
+##"fBodyBodyGyroJerkMag.mean..","fBodyBodyGyroJerkMag.std.."
+
+
 
 #Missing Data: None
