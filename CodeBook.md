@@ -105,26 +105,30 @@ Mean values that I computed of the mean and standard deviation of the vector mag
 Mean values that I computed of the mean frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1]. (Seriously, you are awesome.)
 
 ##"fBodyAcc.std...X","fBodyAcc.std...Y","fBodyAcc.std...Z"
-Mean values that I computed of the std frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
+Mean values that I computed of the std frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
 ##"fBodyAccJerk.mean...X","fBodyAccJerk.mean...Y","fBodyAccJerk.mean...Z"
-Mean values that I computed of the mean first difference frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
+Mean values that I computed of the mean first difference frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
 ##"fBodyAccJerk.std...X","fBodyAccJerk.std...Y","fBodyAccJerk.std...Z"
-Mean values that I computed of the std of first difference frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
+Mean values that I computed of the std of first difference frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
 ##"fBodyGyro.mean...X","fBodyGyro.mean...Y","fBodyGyro.mean...Z"
+Mean values that I computed of the mean frequency domain values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively. (Seriously, you are awesome.)
 
 ##"fBodyGyro.std...X","fBodyGyro.std...Y","fBodyGyro.std...Z"
+Mean values that I computed of the std frequency domain values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1] in each of the X,Y,Z directions respectively.
 
 ##"fBodyAccMag.mean..","fBodyAccMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1].
 
 ##"fBodyBodyAccJerkMag.mean..","fBodyBodyAccJerkMag.std.."
+Mean values that I computed of the mean and standard deviation of the first differences of the vector magnitude frequency domain values reported from the original time series data from the accelerometer high-pass filtered at 0.3Hz normalized to be in the range [-1,+1]. The "BodyBody" designation is undefined in the documentation of the original data set.  May well be a typo.  If it is important to your work, take it up with the contacts listed in the original work.
 
 ##"fBodyBodyGyroMag.mean..","fBodyBodyGyroMag.std.."
+Mean values that I computed of the mean and standard deviation of the vector magnitude frequency domain values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1]. The "BodyBody" designation is undefined in the documentation of the original data set.  May well be a typo.  If it is important to your work, take it up with the contacts listed in the original work.
 
 ##"fBodyBodyGyroJerkMag.mean..","fBodyBodyGyroJerkMag.std.."
+Mean values that I computed of the mean and standard deviation of the first differences of the vector magnitude frequency domain values reported from the original time series data from the gyroscope high-pass filtered at 0.3Hz normalized to be in the range [-1,+1]. The "BodyBody" designation is undefined in the documentation of the original data set.  May well be a typo.  If it is important to your work, take it up with the contacts listed in the original work.
 
-
-
-#Missing Data: None
+#Missing Data: None - all of the datasets used were complete
